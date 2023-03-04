@@ -1,5 +1,5 @@
 //
-// Created by jdrg on 8/9/21.
+// Created by jdrgj on 8/9/21.
 //
 
 #include <string>
@@ -268,46 +268,4 @@ Dictionary::iterator Dictionary::end() const {
     return i;
 }
 
-///////////////////////////////////////////////////////////////////////////////
-//                            Letters Iterator                               //
-///////////////////////////////////////////////////////////////////////////////
 
-/*
-Dictionary::possible_words_iterator Dictionary::possible_words_begin(vector<char> available_characters) const {
-
-}
-
-Dictionary::possible_words_iterator Dictionary::possible_words_end() const {
-}
-
-Dictionary::possible_words_iterator::possible_words_iterator():available_letters(), current_node(), current_word(""){
-}
-
-Dictionary::possible_words_iterator::possible_words_iterator(node current_node, vector<char> available_letters){
-
-
-}
-
-Dictionary::possible_words_iterator::possible_words_iterator(const possible_words_iterator &other){}
-
-
-
-Dictionary::possible_words_iterator &Dictionary::possible_words_iterator::operator=(const Dictionary::possible_words_iterator &other){}
-
-
-
-bool Dictionary::possible_words_iterator::operator==(const Dictionary::possible_words_iterator &other) const {
-
-
-}
-
-bool Dictionary::possible_words_iterator::operator!=(const Dictionary::possible_words_iterator &other) const {
-}
-
-Dictionary::possible_words_iterator &Dictionary::possible_words_iterator::operator++() {
-
-}
-
-std::string Dictionary::possible_words_iterator::operator*() const {
-
-}*/
