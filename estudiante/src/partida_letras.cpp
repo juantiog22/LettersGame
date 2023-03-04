@@ -6,7 +6,7 @@
 #include <fstream>
 #include "letters_set.h"
 #include "solver.h"
-/*
+
 int main(int argc, char *argv[]) {
     Dictionary diccionario;
     LettersSet letras;
@@ -22,7 +22,6 @@ int main(int argc, char *argv[]) {
     char mode = *argv[3];
     int cantidad_letras = atoi(argv[4]);
 
-    Solver solver(diccionario, letras);
+    //Solver solver(diccionario, letras);
 
 }
-*/
